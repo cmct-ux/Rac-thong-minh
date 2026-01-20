@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Nhận diện & Phân loại Rác thải</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>♻️ Phần mềm AI Nhận diện Rác thải</h1>
+  <p>Nhập tên rác thải để được gợi ý phân loại & xử lý</p>
+
+  <input id="wasteInput" placeholder="Ví dụ: chai nhựa, pin, khẩu trang...">
+  <br>
+  <button onclick="classifyWaste()">🔍 Phân tích</button>
+  <button onclick="showReport()">📊 Báo cáo môi trường</button>
+
+  <div id="result"></div>
+  <div id="report"></div>
+
+  <script src="wasteData.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
